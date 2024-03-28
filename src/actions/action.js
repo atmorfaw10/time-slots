@@ -16,9 +16,8 @@ export const selectAppointment = appointment => ({
 export const updateAppointment = (appointments) => ({
     type: UPDATE_APPOINTMENT,
     payload: {
-        appointments
-    },
-    appointments
+        appointments: appointments
+    }
 });
 
 export const toggleModal = () => ({
