@@ -53,7 +53,6 @@ class AppointmentsPage extends Component {
     }
 
     render() {
-        console.log(this.props);
         let appointmentsList = this.props.appointments.map(appointment => {
             return(
                 <div onClick={() => this.openModal(appointment)} key={appointment.time}>
