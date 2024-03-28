@@ -1,6 +1,6 @@
 # Time Slots Application
 
-A _Time Slot_ game powered by React & Redux.
+A _Time Slot_ application powered by React & Redux.
 
 ### Installing & Running Application
 ```
